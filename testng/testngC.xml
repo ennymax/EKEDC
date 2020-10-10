@@ -1,5 +1,5 @@
 <suite name="Suite">
-    <test name = "EKEDC C" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "EKEDC C" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.View_Bill_History"/>
             <class name="com.Module.Staff_Verification_Invalid_StaffID"/>

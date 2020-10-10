@@ -1,5 +1,5 @@
 <suite name="Suite">
-    <test name = "EKEDC F" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "EKEDC F" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.Pay_By_Order_ID_User_Not_Logged_In_Bank"/>
 

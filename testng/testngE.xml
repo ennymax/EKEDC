@@ -1,5 +1,5 @@
 <suite name="Suite">
-    <test name = "EDEDC E" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "EDEDC E" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.View_Ticket_History_Logged_In_User_Mutiple_Account"/>
             <class name="com.Module.Log_The_User_Out_After_30_Minute_Of_Inactivity"/>

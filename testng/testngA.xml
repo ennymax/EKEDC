@@ -1,5 +1,5 @@
 <suite name="Suite">
-    <test name = "EKEDC A" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "EKEDC A" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.Login_with_Wrong_Email"/>
             <class name="com.Module.Login_with_Registered_Email"/>

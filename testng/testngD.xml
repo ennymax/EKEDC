@@ -1,5 +1,5 @@
 <suite name="Suite">
-    <test name = "EKEDC D" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "EKEDC D" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.WhistleBlowing"/>
             <class name="com.Module.Edit_PhoneNumber_On_Profile_Page"/>
