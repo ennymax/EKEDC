@@ -1,0 +1,11 @@
+<suite name="Suite">
+    <test name = "EKEDC F" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.Pay_By_Order_ID_User_Not_Logged_In_Bank"/>
+
+            <class name="com.Module.Raise_a_Complain_User_Not_Logged_In"/>
+            <class name="com.Module.Raise_A_Complaint_User_Multiple_Account"/>
+            <class name="com.Module.Raise_A_Complaint_User_Logged_IN"/>
+        </classes>
+    </test>
+</suite>

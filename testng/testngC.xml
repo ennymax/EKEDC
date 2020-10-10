@@ -1,0 +1,18 @@
+<suite name="Suite">
+    <test name = "EKEDC C" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.View_Bill_History"/>
+            <class name="com.Module.Staff_Verification_Invalid_StaffID"/>
+            <class name="com.Module.Staff_Verification_Valid_StaffID"/>
+            <class name="com.Module.View_Ticket_History_Loggedin_User"/>
+            <class name="com.Module.Track_Ticket_ID_With_Valid_ID"/>
+            <class name="com.Module.Track_Ticket_With_Wrong_Billing_ID"/>
+            <class name="com.Module.Remove_Account"/>
+            <class name="com.Module.Remove_Primary_Account"/>
+            <class name="com.Module.View_Account"/>
+            <class name="com.Module.Add_Account_With_Wrong_Billing_ID_Prepaid"/>
+            <class name="com.Module.Add_Account_Wrong_Billing_PostPaid"/>
+            <class name="com.Module.Make_Payment_Single_Account_Pay_By_Bank_PostPaid"/>
+        </classes>
+    </test>
+</suite>
