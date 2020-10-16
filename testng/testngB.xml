@@ -1,17 +1,17 @@
 <suite name="Suite">
     <test name = "EKEDC B" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
-            <class name="com.Module.Remember_Me"/>
-            <class name="com.Module.Add_Account_Valid_Billing_Prepaid"/>
-            <class name="com.Module.Add_Account_With_Valid_Billing_Postpaid"/>
-            <class name="com.Module.Complete_Reg_ValidBilling_PostPaid_Tenant"/>
-            <class name="com.Module.Complete_Reg_ValidBilling_PostPaidLandLord"/>
-            <class name="com.Module.Complete_Registration_ValidBIlling_PrePaid_LandLord"/>
-            <class name="com.Module.Complete_Registration_ValidBilling_Prepaid_Tenant"/>
-            <class name="com.Module.Complete_Registration_Wrong_BillingID_PostPaid"/>
-            <class name="com.Module.Complete_Registration_Wrong_BillingID_Prepaid"/>
-            <class name="com.Module.Reset_Password_Unregistered_Email"/>
-            <class name="com.Module.Reset_Password_Email"/>
+            <class name="com.ModuleCOM.Remember_Me"/>
+            <class name="com.ModuleCOM.Add_Account_Valid_Billing_Prepaid"/>
+            <class name="com.ModuleCOM.Add_Account_With_Valid_Billing_Postpaid"/>
+            <class name="com.ModuleCOM.Complete_Reg_ValidBilling_PostPaid_Tenant"/>
+            <class name="com.ModuleCOM.Complete_Reg_ValidBilling_PostPaidLandLord"/>
+            <class name="com.ModuleCOM.Complete_Registration_ValidBIlling_PrePaid_LandLord"/>
+            <class name="com.ModuleCOM.Complete_Registration_ValidBilling_Prepaid_Tenant"/>
+            <class name="com.ModuleCOM.Complete_Registration_Wrong_BillingID_PostPaid"/>
+            <class name="com.ModuleCOM.Complete_Registration_Wrong_BillingID_Prepaid"/>
+            <class name="com.ModuleCOM.Reset_Password_Unregistered_Email"/>
+            <class name="com.ModuleCOM.Reset_Password_Email"/>
         </classes>
     </test>
 </suite>

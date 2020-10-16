@@ -1,18 +1,18 @@
 <suite name="Suite">
     <test name = "EDEDC E" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
-            <class name="com.Module.View_Ticket_History_Logged_In_User_Mutiple_Account"/>
-            <class name="com.Module.Log_The_User_Out_After_30_Minute_Of_Inactivity"/>
-            <class name="com.Module.Payment_Without_Login_Validate_MeterNumber_Fails_PostPaid"/>
-            <class name="com.Module.Payment_Without_Login_where_Validating_Account_Number_Fails_PrePaid"/>
-            <class name="com.Module.Make_Payment_Single_Acount_PrePaid_Bank_Transfer"/>
-            <class name="com.Module.Make_Payment_By_Card_Single_User_Prepaid"/>
-            <class name="com.Module.Make_Payment_Without_Login_Prepaid_By_Card"/>
-            <class name="com.Module.Payment_Without_Login_PostPaid_By_Card"/>
-            <class name="com.Module.Payment_Without_Login_PostPaid_By_Bank_Transfer"/>
-            <class name="com.Module.Make_Payment_Single_Account_Pay_By_Card_PostPaid"/>
-            <class name="com.Module.Make_Payment_By_Bank_Transfer_Prepaid"/>
-            <class name="com.Module.MakePayment_Logged_In_User_Prepaid"/>
+            <class name="com.ModuleCOM.View_Ticket_History_Logged_In_User_Mutiple_Account"/>
+            <class name="com.ModuleCOM.Log_The_User_Out_After_30_Minute_Of_Inactivity"/>
+            <class name="com.ModuleCOM.Payment_Without_Login_Validate_MeterNumber_Fails_PostPaid"/>
+            <class name="com.ModuleCOM.Payment_Without_Login_where_Validating_Account_Number_Fails_PrePaid"/>
+            <class name="com.ModuleCOM.Make_Payment_Single_Acount_PrePaid_Bank_Transfer"/>
+            <class name="com.ModuleCOM.Make_Payment_By_Card_Single_User_Prepaid"/>
+            <class name="com.ModuleCOM.Make_Payment_Without_Login_Prepaid_By_Card"/>
+            <class name="com.ModuleCOM.Payment_Without_Login_PostPaid_By_Card"/>
+            <class name="com.ModuleCOM.Payment_Without_Login_PostPaid_By_Bank_Transfer"/>
+            <class name="com.ModuleCOM.Make_Payment_Single_Account_Pay_By_Card_PostPaid"/>
+            <class name="com.ModuleCOM.Make_Payment_By_Bank_Transfer_Prepaid"/>
+            <class name="com.ModuleCOM.MakePayment_Logged_In_User_Prepaid"/>
         </classes>
     </test>
 </suite>

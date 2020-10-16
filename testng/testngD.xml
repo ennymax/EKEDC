@@ -1,18 +1,18 @@
 <suite name="Suite">
     <test name = "EKEDC D" parallel = "methods" thread-count = "2" >
         <classes>
-            <class name="com.Module.WhistleBlowing"/>
-            <class name="com.Module.Edit_PhoneNumber_On_Profile_Page"/>
-            <class name="com.Module.View_Profile"/>
-            <class name="com.Module.View_Usage_PostPaid"/>
-            <class name="com.Module.View_usage_PrePaid"/>
-            <class name="com.Module.View_DashBoard_PostPaid"/>
-            <class name="com.Module.View_DashBoard_PrePaid"/>
-            <class name="com.Module.Search_Payment_History"/>
-            <class name="com.Module.View_Payment_History"/>
-            <class name="com.Module.Login_with_Registered_Email"/>
-            <class name="com.Module.View_Service_Alert_District"/>
-            <class name="com.Module.Pay_By_OrderID_User_Not_Logged_In_Card"/>
+            <class name="com.ModuleCOM.WhistleBlowing"/>
+            <class name="com.ModuleCOM.Edit_PhoneNumber_On_Profile_Page"/>
+            <class name="com.ModuleCOM.View_Profile"/>
+            <class name="com.ModuleCOM.View_Usage_PostPaid"/>
+            <class name="com.ModuleCOM.View_usage_PrePaid"/>
+            <class name="com.ModuleCOM.View_DashBoard_PostPaid"/>
+            <class name="com.ModuleCOM.View_DashBoard_PrePaid"/>
+            <class name="com.ModuleCOM.Search_Payment_History"/>
+            <class name="com.ModuleCOM.View_Payment_History"/>
+            <class name="com.ModuleCOM.Login_with_Registered_Email"/>
+            <class name="com.ModuleCOM.View_Service_Alert_District"/>
+            <class name="com.ModuleCOM.Pay_By_OrderID_User_Not_Logged_In_Card"/>
         </classes>
     </test>
 </suite>
