@@ -1,17 +1,17 @@
 <suite name="Suite">
     <test name = "EKEDC A" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
-            <class name="com.ModuleCOM.Login_with_Wrong_Email"/>
-            <class name="com.ModuleCOM.Login_with_Registered_Email"/>
-            <class name="com.ModuleCOM.Login_With_Wrong_Password"/>
-            <class name="com.ModuleCOM.Registration"/>
-            <class name="com.ModuleCOM.Registration_DPP"/>
-            <class name="com.ModuleCOM.Registration_With_an_Existing_Selfcare_Account"/>
-            <class name="com.ModuleCOM.Registration_with_incomplete_PhoneNumber"/>
-            <class name="com.ModuleCOM.Registration_With_Matching_Password"/>
-            <class name="com.ModuleCOM.Registration_With_Prospective_SelfCare_Account"/>
-            <class name="com.ModuleCOM.Registration_with_Unmatching_Password"/>
-            <class name="com.ModuleCOM.Download_Bills"/>
+            <class name="com.ModuleEKEDC.Login_with_Wrong_Email"/>
+            <class name="com.ModuleEKEDC.Login_with_Registered_Email"/>
+            <class name="com.ModuleEKEDC.Login_With_Wrong_Password"/>
+            <class name="com.ModuleEKEDC.Registration"/>
+            <class name="com.ModuleEKEDC.Registration_DPP"/>
+            <class name="com.ModuleEKEDC.Registration_With_an_Existing_Selfcare_Account"/>
+            <class name="com.ModuleEKEDC.Registration_with_incomplete_PhoneNumber"/>
+            <class name="com.ModuleEKEDC.Registration_With_Matching_Password"/>
+            <class name="com.ModuleEKEDC.Registration_With_Prospective_SelfCare_Account"/>
+            <class name="com.ModuleEKEDC.Registration_with_Unmatching_Password"/>
+            <class name="com.ModuleEKEDC.Download_Bills"/>
         </classes>
     </test>
 </suite>

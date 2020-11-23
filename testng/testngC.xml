@@ -1,18 +1,18 @@
 <suite name="Suite">
     <test name = "EKEDC C" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
-            <class name="com.ModuleCOM.View_Bill_History"/>
-            <class name="com.ModuleCOM.Staff_Verification_Invalid_StaffID"/>
-            <class name="com.ModuleCOM.Staff_Verification_Valid_StaffID"/>
-            <class name="com.ModuleCOM.View_Ticket_History_Loggedin_User"/>
-            <class name="com.ModuleCOM.Track_Ticket_ID_With_Valid_ID"/>
-            <class name="com.ModuleCOM.Track_Ticket_With_Wrong_Billing_ID"/>
-            <class name="com.ModuleCOM.Remove_Account"/>
-            <class name="com.ModuleCOM.Remove_Primary_Account"/>
-            <class name="com.ModuleCOM.View_Account"/>
-            <class name="com.ModuleCOM.Add_Account_With_Wrong_Billing_ID_Prepaid"/>
-            <class name="com.ModuleCOM.Add_Account_Wrong_Billing_PostPaid"/>
-            <class name="com.ModuleCOM.Make_Payment_Single_Account_Pay_By_Bank_PostPaid"/>
+            <class name="com.ModuleEKEDC.View_Bill_History"/>
+            <class name="com.ModuleEKEDC.Staff_Verification_Invalid_StaffID"/>
+            <class name="com.ModuleEKEDC.Staff_Verification_Valid_StaffID"/>
+            <class name="com.ModuleEKEDC.View_Ticket_History_Loggedin_User"/>
+            <class name="com.ModuleEKEDC.Track_Ticket_ID_With_Valid_ID"/>
+            <class name="com.ModuleEKEDC.Track_Ticket_With_Wrong_Billing_ID"/>
+            <class name="com.ModuleEKEDC.Remove_Account"/>
+            <class name="com.ModuleEKEDC.Remove_Primary_Account"/>
+            <class name="com.ModuleEKEDC.View_Account"/>
+            <class name="com.ModuleEKEDC.Add_Account_With_Wrong_Billing_ID_Prepaid"/>
+            <class name="com.ModuleEKEDC.Add_Account_Wrong_Billing_PostPaid"/>
+            <class name="com.ModuleEKEDC.Make_Payment_Single_Account_Pay_By_Bank_PostPaid"/>
         </classes>
     </test>
 </suite>
